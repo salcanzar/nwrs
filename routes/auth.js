@@ -29,7 +29,7 @@ authRouter.get('/callback', (req, res, next) => {
 
       // Make the request to subscription service.
       postData(
-        '/beta/subscriptions',
+        '/v1.0/subscriptions',
         token.accessToken,
         JSON.stringify(subscriptionConfiguration),
         (requestError, subscriptionData) => {
@@ -45,12 +45,15 @@ authRouter.get('/callback', (req, res, next) => {
               '&userId=' + subscriptionData.userId
             );
           } else if (requestError) {
+            console.log('Request failed')
             res.status(500);
             next(requestError);
           }
         }
       );
     } else if (authenticationError) {
+      console.log('Auth failed')
+
       res.status(500);
       next(authenticationError);
     }

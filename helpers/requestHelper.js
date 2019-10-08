@@ -1,5 +1,4 @@
 import https from 'https';
-
 const host = 'graph.microsoft.com';
 
 /**
@@ -20,6 +19,7 @@ export function postData(path, token, data, callback) {
       'Content-Length': data.length
     }
   };
+
 
   const req = https.request(options, res => {
     let subscriptionData = '';

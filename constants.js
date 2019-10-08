@@ -1,13 +1,13 @@
 exports.adalConfiguration = {
   authority: 'https://login.microsoftonline.com/common',
-  clientID: 'ENTER_YOUR_CLIENT_ID',
-  clientSecret: 'ENTER_YOUR_SECRET',
+  clientID: '4fcb2201-970e-43ef-8577-82bcb18708fc',
+  clientSecret: 'nOjGl8ScJq290ruKzz.-P]TzMrfHKGD=',
   redirectUri: 'http://localhost:3000/callback'
 };
 
 exports.subscriptionConfiguration = {
-  changeType: 'Created',
-  notificationUrl: 'https://NGROK_ID.ngrok.io/listen',
+  changeType: 'created',
+  notificationUrl: 'https://96fa7c88.ngrok.io/listen',
   resource: 'me/mailFolders(\'Inbox\')/messages',
   clientState: 'cLIENTsTATEfORvALIDATION'
 };
