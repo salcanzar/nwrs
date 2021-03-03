@@ -16,7 +16,7 @@
     "global-request-logger": "^0.1.1",
     "isomorphic-unfetch": "^3.0.0",
     "morgan": "^1.9.1",
-    "pug": "2.0.0-rc.2",
+    "pug": "3.0.1",
     "socket.io": "^2.1.1",
     "sqlite3": "4.0.2"
   },
