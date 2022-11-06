@@ -27,8 +27,8 @@
     "eslint": "2.3.0",
     "eslint-config-airbnb": "6.1.0",
     "eslint-plugin-react": "7.1.0",
-    "gulp": "3.9.1",
-    "gulp-nodemon": "2.2.1",
+    "gulp": "4.0.2",
+    "gulp-nodemon": "2.5.0",
     "gulp-plumber": "1.1.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.18.4"
