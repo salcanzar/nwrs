@@ -12,7 +12,7 @@
     "adal-node": "^0.1.28",
     "axios": "^0.19.0",
     "body-parser": "^1.18.3",
-    "express": "4.16.3",
+    "express": "4.17.3",
     "global-request-logger": "^0.1.1",
     "isomorphic-unfetch": "^3.0.0",
     "morgan": "^1.9.1",
